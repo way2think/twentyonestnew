@@ -1,0 +1,237 @@
+@font-face {
+  font-family: futuramedium;
+  src: url("../../futura/futura\ medium\ bt.ttf");
+}
+@font-face {
+  font-family: futuracondensed;
+  src: url("../../futura/futura\ medium\ condensed\ bt.ttf");
+}
+
+.carosueloverlay {
+  background: #000;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.overallrow {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 0 100px;
+}
+
+.caro {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 30px 60px;
+}
+
+.carosueloverlay2 {
+  background: #000;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.carosueloverlay3 {
+  background: #000;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.inner {
+  width: 100%;
+  height: 100%;
+}
+
+.overallcarousel {
+  width: 100%;
+  height: 100%;
+}
+
+.title1 {
+  font-size: 40px;
+  font-family: futuramedium;
+  color: #ed1c24;
+  text-align: justify;
+}
+
+.content {
+  font-family: futuramedium;
+  font-size: 18px;
+  color: #fff;
+  text-align: justify;
+  line-height: 30px;
+}
+
+.Serviceslist {
+  list-style-type: none;
+  text-align: justify;
+  padding: 0;
+}
+.Serviceslist li {
+  list-style-type: none;
+  text-align: justify;
+  line-height: 30px;
+  color: #fff;
+  padding: 0;
+  font-family: futuramedium;
+  font-size: 14px;
+}
+
+.brand {
+  max-width: 5%;
+  margin-right: 20px;
+}
+
+.indicators {
+  position: absolute;
+  right: 0;
+  bottom: 70px;
+  left: -49rem;
+  z-index: 15;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+
+.indicators li {
+  position: relative;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 10px;
+  height: 10px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.indicators .active {
+  background-color: #ed1c24 !important;
+}
+
+.gsquare {
+  max-width: 140%;
+  padding: 30px;
+}
+.gsquare2 {
+  max-width: 140%;
+  padding: 30px;
+}
+.gsquare1 {
+  max-width: 140%;
+  padding: 30px;
+}
+
+.button {
+  background-color: #ed1c24;
+  color: #fff;
+
+  border: none;
+  padding: 10px 25px;
+  font-family: futuramedium;
+  font-size: 16px;
+}
+
+@media (max-width: 767px) {
+  .caro {
+    padding: 15px 30px;
+  }
+  .title1 {
+    font-size: 24px; /* Adjust as needed for mobile */
+  }
+  .overallrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding: 0 10px;
+  }
+  .gsquare {
+    max-width: 100%;
+    padding: 0px;
+    width: 100%;
+  }
+  .gsquare1 {
+    max-width: 100%;
+    padding: 0px;
+  }
+  .gsquare2 {
+    max-width: 100%;
+    padding: 0px;
+  }
+  .content {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .button {
+    padding: 5px 10px;
+    /* font-size: 12px; */
+  }
+  .indicators {
+    bottom: 25px;
+    left: 0rem;
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+}
+
+/* Laptops and larger screens (768px and above) */
+@media (min-width: 768px) {
+  .title1 {
+    font-size: 40px; /* Default font size for laptops and larger screens */
+  }
+
+  /* Add any other styles specific to laptops and larger screens */
+}
+
+/* Extra-large screens (e.g. desktops) - You can adjust the min-width as needed */
+@media (min-width: 1200px) {
+  .title1 {
+    font-size: 40px; /* Adjust as needed for extra-large screens */
+  }
+
+  /* Add any other styles specific to extra-large screens */
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* Laptop */
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+}
+
+/* Larger screens */
+@media only screen and (min-width: 1366px) {
+  .title1 {
+    font-size: 40px;
+  }
+  .content {
+    font-size: 18px;
+  }
+  .overallrow {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0 100px;
+  }
+}
