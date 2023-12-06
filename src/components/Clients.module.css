@@ -1,5 +1,5 @@
 .overallclients {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -11,7 +11,10 @@
   background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
+  display: block;
 }
+
+
 
 .Services {
   margin: 15px;
@@ -33,11 +36,30 @@
   padding: 0 16px;
 }
 
+.clients-mobile
+{
+display: none !important;
+}
+
+
 /* Mobile */
 @media only screen and (max-width: 767px) {
   .overallclients {
     background: url("../.././public/images/Clients\ Mobile.svg");
   }
+  .clients-mobile{
+    display: block;
+  }
+  .overallclients{
+    display:none;
+  }
+  .p-content{
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    font-family: futuramedium;
+  }
+ 
 }
 
 /* Tablet */
