@@ -106,7 +106,7 @@ const Contact = () => {
                     placeholder="Comments"
                   />
                 </div>
-                <input type="submit" name="" value="Submit" />
+                <input className={classes.sub} type="submit" name="" value="Submit" />
               </form>
             </div>
           </div>

@@ -208,6 +208,12 @@ option {
   background: transparent;
 }
 @media (max-width: 767px) {
+  /* Add the following style to ensure the body takes 100% height */
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden; /* Add this to prevent body from scrolling and let the .Contacts container handle scrolling */
+}
   .box {
     width: 100%;
     padding: 0 20px;
@@ -215,9 +221,21 @@ option {
   .Contacts {
     padding: 0;
     background: url("../.././public/images/Contact\ Mobile.svg");
+    height: 1000px;
+    overflow-y: scroll;
   }
   .Contactcontainer {
     flex-direction: column-reverse;
     padding: 0;
   }
+  .Servicescontent1{
+    margin-top: 40px;
+  }
+  
+  .sub{
+    margin-bottom: 30px;
+  }
 }
+
+
+
