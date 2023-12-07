@@ -1,15 +1,16 @@
-.Contacts {
+.Contactsmobile {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 100%;
-  height: 100%;
+  height: 200vh;
   padding: 50px;
   background: url("../.././public/images/Contact\ bg.png");
   background-position: center right;
   background-repeat: no-repeat;
   background-size: 100%;
+  overflow-y: auto;
 }
 
 .Contactcontainer {
@@ -18,6 +19,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 .clientsimg {
@@ -95,14 +97,14 @@
 
 .box {
   /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
   width: 400px;
   padding: 0 55px;
   /* background: rgba(0, 0, 0, 0.4);
-  box-sizing: border-box;
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5); */
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5); */
   border-radius: 10px;
 }
 .box h2 {
@@ -147,10 +149,10 @@ select {
 
 option {
   /* width: 100%;
-  padding: 10px 0;
-  font-size: 16px;
-  color: #fff;
-  letter-spacing: 1px; */
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px; */
   margin-bottom: 10px;
   border: none;
   border-bottom: 2px solid #fff;
@@ -168,25 +170,25 @@ option {
   pointer-events: none;
   font-family: futuramedium;
   /* transition: 0.5s;
-  animation: LabelOnLoad 1s forwards 0s ease; */
+    animation: LabelOnLoad 1s forwards 0s ease; */
 }
 /* @keyframes LabelOnLoad {
-  0% {
-    transform: rotate(0) translateY(-19px);
-    opacity: 0;
-  }
-  100% {
-    transform: rotate(0) translateY(0);
-    opacity: 1;
-  }
-} */
+    0% {
+      transform: rotate(0) translateY(-19px);
+      opacity: 0;
+    }
+    100% {
+      transform: rotate(0) translateY(0);
+      opacity: 1;
+    }
+  } */
 /* .box .inputBox input:focus ~ label,
-.box .inputBox input:valid ~ label {
-  top: -19px;
-  left: 0;
-  color: #03a9f4;
-  font-size: 12px;
-} */
+  .box .inputBox input:valid ~ label {
+    top: -19px;
+    left: 0;
+    color: #03a9f4;
+    font-size: 12px;
+  } */
 .box input[type="submit"] {
   background: transparent;
   border: none;
@@ -209,25 +211,21 @@ option {
 }
 @media (max-width: 767px) {
   /* Add the following style to ensure the body takes 100% height */
-  body {
-    margin: 0;
-    height: 100vh;
-    overflow: hidden; /* Add this to prevent body from scrolling and let the .Contacts container handle scrolling */
-  }
+
   .box {
     width: 100%;
     padding: 0 20px;
   }
-  .Contacts {
-    padding: 0;
+  .Contactsmobile {
+    padding: 10px;
     background: url("../.././public/images/Contact\ Mobile.svg");
-    height: 1000px;
-    overflow-y: scroll;
-    display: none;
+    height: 200vh;
+    overflow-y: auto;
   }
   .Contactcontainer {
     flex-direction: column-reverse;
     padding: 0;
+    height: 100%;
   }
   .Servicescontent1 {
     margin-top: 40px;

@@ -9,6 +9,7 @@ import Services from "../components/Services";
 import Clients from "../components/Clients";
 import Contact from "../components/Contact";
 import Testi from "../components/newTestimonial";
+import MobileContact from "../components/MobileContact";
 
 const interleaveOffset = 0.75;
 
@@ -242,6 +243,7 @@ function Main() {
           <div className="swiper-slide">
             <div className={`${classes.slider6} slide-inner`}>
               <Contact />
+              <MobileContact/>
             </div>
           </div>
         </div>
