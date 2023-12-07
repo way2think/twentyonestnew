@@ -10,6 +10,7 @@ import Clients from "../components/Clients";
 import Contact from "../components/Contact";
 import Testi from "../components/newTestimonial";
 import MobileContact from "../components/MobileContact";
+import MobileOurContact from "../components/MobileOurContact";
 
 const interleaveOffset = 0.75;
 
@@ -18,6 +19,7 @@ function Main() {
   const [activeSlide, setActiveSlide] = useState(0);
 
   useEffect(() => {
+    console.log("width: ", window.screen.width);
     swiperRef.current = new Swiper(".swiper-container", {
       direction: "vertical",
       speed: 800,
@@ -240,12 +242,27 @@ function Main() {
               <Clients />
             </div>
           </div>
-          <div className="swiper-slide">
-            <div className={`${classes.slider6} slide-inner`}>
-              <Contact />
-              <MobileContact/>
+          {window.screen.width < 767 ? (
+            <>
+              <div className="swiper-slide mobileview">
+                <div className={`${classes.slider6} slide-inner `}>
+                  <MobileContact />
+                </div>
+              </div>
+              <div className="swiper-slide mobileview">
+                <div className={`${classes.slider6} slide-inner`}>
+                  <MobileOurContact />
+                </div>
+              </div>
+            </>
+          ) : (
+            <div className="swiper-slide">
+              <div className={`${classes.slider6} slide-inner`}>
+                <Contact />
+                {/* <MobileContact/> */}
+              </div>
             </div>
-          </div>
+          )}
         </div>
 
         <div className={`${classes.progress} vlt-fullpage-slider-progress-bar`}>
