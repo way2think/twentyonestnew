@@ -74,7 +74,7 @@
 
 @media (max-width: 767px) {
   .content {
-    margin-bottom: -150%;
+    margin-bottom: -235%;
     margin-left: 0;
     padding: 0;
     /* opacity: 0;
@@ -93,6 +93,6 @@
   }
 
   .thirdtitle {
-    font-size: 18px;
+    font-size: 28px;
   }
 }

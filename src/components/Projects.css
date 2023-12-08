@@ -152,8 +152,10 @@
 }
 
 @media (max-width: 767px) {
+ 
   .caro {
     padding: 15px 30px;
+   
   }
   .title1 {
     font-size: 24px; /* Adjust as needed for mobile */
@@ -164,6 +166,7 @@
     align-items: center;
     flex-direction: column-reverse;
     padding: 0 10px;
+   
   }
   .gsquare {
     max-width: 100%;
@@ -181,16 +184,19 @@
   .content {
     font-size: 18px;
     line-height: 28px;
+    
   }
   .button {
     padding: 5px 10px;
     /* font-size: 12px; */
+    
   }
   .indicators {
-    bottom: 25px;
+    bottom: 100px;
     left: 0rem;
     margin-right: 25%;
     margin-left: 25%;
+    margin-top: 200px;
   }
 }
 

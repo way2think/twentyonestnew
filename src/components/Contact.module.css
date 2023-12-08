@@ -91,6 +91,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+ 
 }
 
 .box {
@@ -219,5 +220,13 @@ option {
   .Contactcontainer {
     flex-direction: column-reverse;
     padding: 0;
+  }
+  .Servicescontent{
+    position: relative;
+    top:85px
+  }
+  .Servicescontent1{
+    position: relative;
+    top:100px;
   }
 }
