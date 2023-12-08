@@ -1,5 +1,5 @@
 .overallclients {
-  /* display: flex; */
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -11,10 +11,8 @@
   background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
-  display: block;
+  /* display: block; */
 }
-
-
 
 .Services {
   margin: 15px;
@@ -26,6 +24,7 @@
 
 .clientsimg {
   max-width: 100%;
+  margin-bottom: 10%;
 }
 
 .clientlogo {
@@ -36,30 +35,28 @@
   padding: 0 16px;
 }
 
-.clients-mobile
-{
-display: none !important;
+.clients {
+  display: none;
 }
-
 
 /* Mobile */
 @media only screen and (max-width: 767px) {
   .overallclients {
     background: url("../.././public/images/Clients\ Mobile.svg");
   }
-  .clients-mobile{
+  .clients {
     display: block;
+    height: 100%;
   }
-  .overallclients{
-    display:none;
+  .overallclients {
+    display: none !important;
   }
-  .p-content{
+  .p-content {
     font-size: 14px;
     color: #fff;
     text-align: left;
     font-family: futuramedium;
   }
- 
 }
 
 /* Tablet */

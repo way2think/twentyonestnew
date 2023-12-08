@@ -364,6 +364,10 @@ a:not([href]):not([tabindex]):hover {
   color: #fff;
 }
 
+.mobileview{
+  display: none;
+}
+
 /* Mobile Devices (up to 767px) */
 @media (max-width: 767px) {
   .navbar-brand {
@@ -419,6 +423,9 @@ a:not([href]):not([tabindex]):hover {
   .fa-angle-right {
     font-size: 16px;
   }
+  .mobileview{
+    display: block;
+  }
 
   /* Add any other mobile-specific styles here */
 }
@@ -430,6 +437,9 @@ a:not([href]):not([tabindex]):hover {
   .swiper-container {
     height: 100vh; /* Adjust height for tablets */
   }
+  .mobileview{
+    display: none;
+  }
 
   /* Add any other tablet-specific styles here */
 }
@@ -439,6 +449,9 @@ a:not([href]):not([tabindex]):hover {
   .swiper-container {
     height: 100vh; /* Restore original height for laptops and larger screens */
   }
+  .mobileview{
+    display: none;
+  }
 }
 
 /* Laptop */
@@ -446,11 +459,17 @@ a:not([href]):not([tabindex]):hover {
   .swiper-container {
     height: 100vh; /* Restore original height for laptops and larger screens */
   }
+  .mobileview{
+    display: none;
+  }
 }
 
 /* Larger screens */
 @media only screen and (min-width: 1366px) {
   .swiper-container {
     height: 100vh; /* Restore original height for laptops and larger screens */
+  }
+  .mobileview{
+    display: none;
   }
 }
