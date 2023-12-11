@@ -191,8 +191,12 @@
     /* font-size: 12px; */
     
   }
+  .indicators li{
+    width: 8px;
+    height: 8px;
+  }
   .indicators {
-    bottom: 100px;
+    bottom: 55px;
     left: 0rem;
     margin-right: 25%;
     margin-left: 25%;

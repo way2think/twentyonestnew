@@ -65,7 +65,7 @@ const MobileContact = () => {
               </form>
             </div>
           </div>
-          <div className={`${classes.Contactcontainer} container`}>
+          {/* <div className={`${classes.Contactcontainer} container`}>
             <div className={`${classes.Servicescontent1} `}>
               <h3 className={classes.contacttitle}>Contact</h3>
               <p className={classes.para1}>
@@ -116,7 +116,7 @@ const MobileContact = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
