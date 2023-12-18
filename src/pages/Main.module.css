@@ -11,7 +11,7 @@
   background: url("../.././public/images/Home\ bg.png");
   background-position: center right;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: auto;
   /* transition: transform 1.5s ease; */
   /* background-size: 120%; */
 }
@@ -153,13 +153,13 @@
   /* Your mobile-specific styles here */
 
   .slider1 {
-    background: url("../.././public/images/Home Mobile.svg");
+    background: url("../.././public/images/Home.png");
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .slider2 {
-    background: url("../.././public/images/About Mobile.svg");
+    background: url("../.././public/images/About.png");
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
