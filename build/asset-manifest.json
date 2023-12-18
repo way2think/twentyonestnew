@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.d29ba4bf.css",
-    "main.js": "/static/js/main.8205e2af.js",
+    "main.css": "/static/css/main.a21ad98d.css",
+    "main.js": "/static/js/main.dabdebfb.js",
     "static/js/27.f3622711.chunk.js": "/static/js/27.f3622711.chunk.js",
     "static/media/Home bg.png": "/static/media/Home bg.94857fa1f70eab52d0db.png",
-    "static/media/About Mobile.svg": "/static/media/About Mobile.a9a12914d293a9e70ae2.svg",
-    "static/media/Home Mobile.svg": "/static/media/Home Mobile.15f7889f65a8429f7615.svg",
-    "static/media/Testimonials Mobile.svg": "/static/media/Testimonials Mobile.554dcbc7f45b87ad7d75.svg",
     "static/media/About bg.png": "/static/media/About bg.68d5cc4f6f33c074811c.png",
     "static/media/Testimonial bg.png": "/static/media/Testimonial bg.dd3119dbe8f6ec16a18f.png",
     "static/media/Services bg 3.png": "/static/media/Services bg 3.bdd9d5ddde06be5aa376.png",
     "static/media/Services bg 1.png": "/static/media/Services bg 1.08279bcb642d236f79f7.png",
-    "static/media/Clients Mobile.svg": "/static/media/Clients Mobile.7289c37a5a54b7a29518.svg",
     "static/media/Services bg 2.png": "/static/media/Services bg 2.d72b25fdacc7ab648740.png",
     "static/media/Clients bg.png": "/static/media/Clients bg.38c08b3878618ad025b0.png",
     "static/media/Contact Mobile.svg": "/static/media/Contact Mobile.b190b2051d4027a6486b.svg",
     "static/media/Contact bg.png": "/static/media/Contact bg.666b33998376a740c8b8.png",
+    "static/media/Home.png": "/static/media/Home.94fedc8f18a35c4c5dd9.png",
+    "static/media/About.png": "/static/media/About.8f34e6a91399b0191a77.png",
+    "static/media/testimonial 1.png": "/static/media/testimonial 1.da3d46a3554b5efd4ba0.png",
+    "static/media/client bg.png": "/static/media/client bg.daafa808331e48395a99.png",
+    "static/media/contact bg new.png": "/static/media/contact bg new.384e598d28346b1d642c.png",
     "static/media/Futura Heavy font.ttf": "/static/media/Futura Heavy font.af72c25a6945b0f48abb.ttf",
     "static/media/futura medium bt.ttf": "/static/media/futura medium bt.4e762c29ef7b44ca51cb.ttf",
     "static/media/Futura Book font.ttf": "/static/media/Futura Book font.ed19af444f0976dbaf41.ttf",
@@ -23,7 +24,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.d29ba4bf.css",
-    "static/js/main.8205e2af.js"
+    "static/css/main.a21ad98d.css",
+    "static/js/main.dabdebfb.js"
   ]
 }
