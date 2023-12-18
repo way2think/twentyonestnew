@@ -19,11 +19,12 @@ const MobileContact = () => {
     <>
       <div className={`${classes.Contactsmobile} zoom-animation`}>
         <div className={`${classes.Contactcontainer} container`}>
+          <h3 className={classes.contactbrand}>
+            Let's grab coffee <br /> over your{" "}
+            <span className={classes.brand}>brand</span>
+          </h3>
+          
           <div className={`${classes.Servicescontent}`}>
-            <h3 className={classes.contactbrand}>
-              Let's grab coffee over
-              <br /> your <span className={classes.brand}>brand</span>
-            </h3>
             <div className={classes.box}>
               <form action="">
                 <div className={classes.inputBox}>

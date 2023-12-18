@@ -87,12 +87,12 @@
     font-size: 12px;
   }
   .liservices p{
-    font-size: 24px;
+    font-size: 16px;
   }
 
   .bottom-2 {
-    bottom: -2rem;
-    left: 5.5rem;
+    bottom: -2rem !important;
+    left: 5.5rem !important;
   }
   .slider-dots {
     gap: 7px;
@@ -125,7 +125,7 @@
     gap: 7px;
     font-size: 12px;
     color: #fff;
-    margin-top: 40px;
+    margin-top: 30px;
   }
   .slider-dots .active {
     color: #ed1c24;
@@ -133,9 +133,7 @@
   .slider-dots > i {
     cursor: pointer;
   }
-  .bottom-2 {
-    bottom: -4rem;
-  }
+ 
   .slider-content-container {
     height: 60%;
     margin-top: 110px;
@@ -214,10 +212,7 @@
   .slider-dots > i {
     cursor: pointer;
   }
-  .bottom-2 {
-    bottom: 0rem;
-    left: 10px;
-  }
+  
   .slider-content-container {
     height: 60%;
   }
@@ -227,7 +222,7 @@
   .title {
     font-weight: 500 !important;
     color: #ed1c24;
-    font-size: 40px;
+    font-size: 28px;
   }
   .p-content {
     font-size: 14px;
@@ -236,6 +231,7 @@
     font-family: futuramedium;
   }
   .slider-content {
+    margin-top: 18%;
     padding-left: 0;
   }
   .gif-size {

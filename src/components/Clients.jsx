@@ -152,7 +152,9 @@ const Clients = () => {
             {/* Content */}
             <div className="col-10 px-2 d-flex flex-column justify-content-center">
               <Card curData={curData} />
-              <div className="d-flex flex-row slider-dots  bottom-2 justify-content-center">
+              <div
+                className={`${classes.bottom} d-flex flex-row slider-dots  justify-content-center`}
+              >
                 {[...Array(sliderData.length).keys()].map((itemI) => (
                   <i
                     role="button"

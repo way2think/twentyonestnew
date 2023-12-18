@@ -42,15 +42,19 @@
  .abouttitlemobile{
   display: block;
   font-family: Futura;
-  font-size: 26px;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: 500;
   color: #fff;
   text-align: justify;
   margin-bottom: 20px;
-  line-height: 38px;
+  line-height: 30px;
   
   width: 100%;
   height: 100%;
+ }
+ .sim{
+  font-size: 24px;
+  line-height: 30px;
  }
 
  .aboutcontent{

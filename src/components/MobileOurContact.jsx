@@ -49,8 +49,9 @@ const MobileOurContact = () => {
                 <div className={classes.addresscontent}>
                   <h3 className={classes.addresstitle}>CHENNAI</h3>
                   <p className={classes.add1}>
-                    No. 40, Rukmani Street, West Mambalam, Chennai, Tamil Nadu
-                    600 033
+                    No. 40, Rukmani Street,
+                    <br /> West Mambalam, Chennai,
+                    <br /> Tamil Nadu 600 033
                   </p>
                 </div>
               </div>
@@ -63,9 +64,11 @@ const MobileOurContact = () => {
                 <div className={classes.addresscontent}>
                   <h3 className={classes.addresstitle}>BENGALURU</h3>
                   <p className={classes.add1}>
-                    Novel Business Park, #57, 13th Cross, Baldwins Road,
-                    Koramangala, <br />
-                    Bengaluru, Karnataka 560 030
+                    Novel Business Park, #57,
+                    <br /> 13th Cross, Baldwins Road,
+                    <br />
+                    Koramangala, Bengaluru,
+                    <br /> Karnataka 560 030
                   </p>
                 </div>
               </div>
