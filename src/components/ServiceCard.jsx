@@ -1,3 +1,5 @@
+import "./newServices.css";
+
 const Card = ({ curData }) => {
   return (
     <div className="slider-content text-light text-left" id="anim">
@@ -18,9 +20,9 @@ const Card = ({ curData }) => {
               className="d-flex align-items-center pb-1 fade-up liservices"
             >
               {item.text && (
-                <img className="gif-size" src={item.img_url} alt={item.text} />
+                <img className="gif-size "  src={item.img_url} alt={item.text} />
               )}
-              {item.text && <p className="pl-2 m-0">{item.text}</p>}
+              {item.text && <p className="pl-2 m-0 ">{item.text}</p>}
             </li>
           ))}
       </ul>

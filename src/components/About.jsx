@@ -9,6 +9,11 @@ const About = () => {
             We believe in the <span className={classes.sim}>power of simplicity</span>
             <br /> to make brands impactful and distinctive.
           </p>
+
+          <p className={`${classes.abouttitlemobile} multiline-paragraph`}>
+            We believe  in <br /> the <span className={classes.sim}>power of simplicity</span>
+            <br /> to make brands impactful <br /> and distinctive.
+          </p>
         </div>
         <div className={`${classes.imagecontent} col-md-5`}>
           {/* <img

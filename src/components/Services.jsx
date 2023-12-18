@@ -148,22 +148,22 @@ const Services = () => {
       <div>
         <img
           className={`bg-pos ${curIndex === 0 ? "active-bg" : ""}`}
-          src="/images/services Mobile.svg"
+          src="/images/service 1.png"
           alt="bg-1"
         />
         <img
           className={`bg-pos ${curIndex === 1 ? "active-bg" : ""}`}
-          src="/images/digital bg service.svg"
+          src="/images/service 2.png"
           alt="bg-2"
         />
         <img
           className={`bg-pos ${curIndex === 2 ? "active-bg" : ""}`}
-          src="/images/services flim.svg"
+          src="/images/service 3.png"
           alt="bg-3"
         />
         <img
           className={`bg-pos ${curIndex === 3 ? "active-bg" : ""}`}
-          src="/images/services flim.svg"
+          src="/images/service 3.png"
           alt="bg-4"
         />
       </div>
@@ -253,7 +253,7 @@ const Services = () => {
     <>
       <div className="postion-center">
         {ui}
-        <div className="d-flex w-100 slider-content-container width-fit">
+        <div className="d-flex w-100 slider-content-container width-fit ">
           {/* Left arrow */}
           <div
             role="button"

@@ -9,31 +9,10 @@ const Clients = () => {
         <div>
           <div className={`${classes.Servicescontent} col-md-2 col-lg-2`}>
             <img
-              src="/images/gsquare 1.svg"
+              src="/images/client 1.png"
               alt=""
               className={classes.clientsimg}
             />
-          </div>
-          <div className={`${classes.Servicescontent} col-md-2 col-lg-2`}>
-            <img
-              src="/images/casagrand 1.svg"
-              alt=""
-              className={classes.clientsimg}
-            />
-          </div>
-          <div className={`${classes.Servicescontent} col-md-2 col-lg-2`}>
-            <img
-              src="/images/zxdsdlklgszsAsset 1@2x 1.svg"
-              alt=""
-              className={classes.clientsimg}
-            />
-            <div className={`${classes.Servicescontent} col-md-2 col-lg-2`}>
-              <img
-                src="/images/jallikattu.svg"
-                alt=""
-                className={classes.clientsimg}
-              />
-            </div>
           </div>
         </div>
       ),
@@ -43,28 +22,7 @@ const Clients = () => {
         <div>
           <div className={`${classes.Servicescontent} col-md-3 col-lg-2`}>
             <img
-              src="/images/sbs_logow 1.svg"
-              alt=""
-              className={classes.clientsimg}
-            />
-          </div>
-          <div className={`${classes.Servicescontent} col-md-2 col-lg-2`}>
-            <img
-              src="/images/diya 1.svg"
-              alt=""
-              className={classes.clientsimg}
-            />
-          </div>
-          <div className={`${classes.Servicescontent} col-md-2 col-lg-2`}>
-            <img
-              src="/images/murugan 1.svg"
-              alt=""
-              className={classes.clientsimg}
-            />
-          </div>
-          <div className={`${classes.Servicescontent} col-md-2 col-lg-2`}>
-            <img
-              src="/images/acc 1.svg"
+              src="/images/client 2.png"
               alt=""
               className={classes.clientsimg}
             />
@@ -77,24 +35,7 @@ const Clients = () => {
         <div>
           <div className={`${classes.Servicescontent} col-md-2 col-lg-2`}>
             <img
-              src="/images/jarvis den 1.svg"
-              alt=""
-              className={classes.clientsimg}
-            />
-          </div>
-          <div className={`${classes.Servicescontent} col-md-3 col-lg-3`}>
-            <img src="/images/rkr.svg" alt="" className={classes.clientsimg} />
-          </div>
-          <div className={`${classes.Servicescontent} col-md-2 col-lg-2`}>
-            <img
-              src="/images/maamis 1.svg"
-              alt=""
-              className={classes.clientsimg}
-            />
-          </div>
-          <div className={`${classes.Servicescontent} col-md-2 col-lg-2`}>
-            <img
-              src="/images/test ocean.svg"
+              src="/images/client 3.png"
               alt=""
               className={classes.clientsimg}
             />
@@ -107,25 +48,7 @@ const Clients = () => {
         <div>
           <div className={`${classes.Servicescontent} col-md-2 col-lg-2`}>
             <img
-              src="/images/organic.svg"
-              alt=""
-              className={classes.clientsimg}
-            />
-          </div>
-
-          <div className={`${classes.Servicescontent} col-md-3 col-lg-3`}>
-            <img
-              src="/images/2 fpohhpameAsset 2@2x 1.svg"
-              alt=""
-              className={classes.clientsimg}
-            />
-          </div>
-          <div className={`${classes.Servicescontent} col-md-2 col-lg-2`}>
-            <img src="/images/wink.svg" alt="" className={classes.clientsimg} />
-          </div>
-          <div className={`${classes.Servicescontent} col-md-2 col-lg-2`}>
-            <img
-              src="/images/LOGO-WHITE 1 1.svg"
+              src="/images/client 4.png"
               alt=""
               className={classes.clientsimg}
             />
@@ -213,7 +136,7 @@ const Clients = () => {
   return (
     <>
       <div className={classes.clients}>
-        <div className="postion-center">
+        <div className="postion-center ">
           <div
             className="d-flex w-100 slider-content-container width-fit  "
             style={{ color: "white" }}
