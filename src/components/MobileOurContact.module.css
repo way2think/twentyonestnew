@@ -10,7 +10,6 @@
   background-position: center right;
   background-repeat: no-repeat;
   background-size: 100%;
-
 }
 
 .Contactcontainer {
@@ -229,7 +228,11 @@ option {
     height: 100%;
   }
   .Servicescontent1 {
-    margin-top: 25%;
+    margin-top: 13%;
+    padding: 0 30px;
+  }
+  .para1 {
+    font-size: 26px;
   }
 
   .sub {
@@ -245,5 +248,17 @@ option {
   }
   .inputBox {
     margin-bottom: 5%;
+  }
+  .add1 {
+    font-size: 16px;
+  }
+  .addressimg {
+    max-width: 30%;
+  }
+  .addresstitle {
+    font-size: 26px;
+  }
+  .clientsimg {
+    max-width: 8%;
   }
 }

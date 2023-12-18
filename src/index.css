@@ -364,7 +364,7 @@ a:not([href]):not([tabindex]):hover {
   color: #fff;
 }
 
-.mobileview{
+.mobileview {
   display: none;
 }
 
@@ -395,8 +395,8 @@ a:not([href]):not([tabindex]):hover {
     font-size: 16px; /* Adjust font size for mobile */
   }
   .testi-container {
-    width: 23rem;
-    height: 350px;
+    width: 20rem;
+    height: 360px;
   }
   .font-style-m {
     font-size: 14px;
@@ -406,14 +406,17 @@ a:not([href]):not([tabindex]):hover {
     margin-bottom: 30px;
   }
   .apostropheImg {
-    width: 2rem;
+    width: 3rem;
   }
   .arrow-container {
     padding-top: 15px;
     padding-left: 0;
+    bottom: -90px;
   }
   .sflogo {
-    max-width: 70%;
+    /* max-width: 70%; */
+    width: 260px;
+    height: auto;
   }
 
   .align-self-end {
@@ -423,7 +426,7 @@ a:not([href]):not([tabindex]):hover {
   .fa-angle-right {
     font-size: 16px;
   }
-  .mobileview{
+  .mobileview {
     display: block;
   }
 
@@ -437,7 +440,7 @@ a:not([href]):not([tabindex]):hover {
   .swiper-container {
     height: 100vh; /* Adjust height for tablets */
   }
-  .mobileview{
+  .mobileview {
     display: none;
   }
 
@@ -449,7 +452,7 @@ a:not([href]):not([tabindex]):hover {
   .swiper-container {
     height: 100vh; /* Restore original height for laptops and larger screens */
   }
-  .mobileview{
+  .mobileview {
     display: none;
   }
 }
@@ -459,7 +462,7 @@ a:not([href]):not([tabindex]):hover {
   .swiper-container {
     height: 100vh; /* Restore original height for laptops and larger screens */
   }
-  .mobileview{
+  .mobileview {
     display: none;
   }
 }
@@ -469,7 +472,7 @@ a:not([href]):not([tabindex]):hover {
   .swiper-container {
     height: 100vh; /* Restore original height for laptops and larger screens */
   }
-  .mobileview{
+  .mobileview {
     display: none;
   }
 }

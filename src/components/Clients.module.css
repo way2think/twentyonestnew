@@ -41,7 +41,6 @@
 
 /* Mobile */
 @media only screen and (max-width: 767px) {
- 
   .clients {
     display: block;
     height: 100%;
@@ -56,6 +55,10 @@
     color: #fff;
     text-align: left;
     font-family: futuramedium;
+  }
+  .clientsimg {
+    margin-bottom: 0%;
+    max-width: 60%;
   }
 }
 

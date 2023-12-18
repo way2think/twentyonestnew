@@ -10,7 +10,7 @@
   background-position: center right;
   background-repeat: no-repeat;
   background-size: 100%;
-  overflow-y: auto;
+  /* overflow-y: auto; */
 }
 
 .Contactcontainer {
@@ -93,7 +93,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .box {
@@ -222,7 +222,7 @@ option {
     padding: 10px;
     background: url("../.././public/images/contact\ bg\ new.png");
     height: 100%;
-    overflow-y: auto;
+    /* overflow-y: auto; */
     margin-top: 15%;
   }
   .Contactcontainer {
@@ -232,6 +232,18 @@ option {
   .Servicescontent1 {
     margin-top: 15%;
   }
+  .Servicescontent{
+    margin-top: 5%;
+  }
+
+  .contactbrand {
+    font-size: 28px;
+    font-family: futuramedium;
+    color: #fff;
+    text-align: left;
+    padding-left: 16px;
+    margin-top: 12%;
+}
 
   .sub {
     margin-bottom: 30px;
@@ -239,13 +251,16 @@ option {
 
   .box .inputBox input {
     /* padding: 20px 0; */
-    margin-bottom: 5%;
+    margin-bottom: 3%;
   }
   select {
-    margin-bottom: 5%;
+    margin-bottom: 3%;
   }
   .inputBox {
-    margin-bottom: 5%;
+    margin-bottom: 3%;
+  }
+  .select_container{
+    margin-bottom: 3%;
   }
 
   /* .Contactsmobile::-webkit-scrollbar {
