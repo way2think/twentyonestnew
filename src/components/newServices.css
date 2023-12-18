@@ -89,7 +89,6 @@
   .liservices p{
     font-size: 16px;
   }
-
   .bottom-2 {
     bottom: -2rem !important;
     left: 5.5rem !important;
@@ -136,7 +135,7 @@
  
   .slider-content-container {
     height: 60%;
-    margin-top: 110px;
+    margin-top: 220px;
   }
   .slider-content {
     height: auto;
@@ -222,7 +221,7 @@
   .title {
     font-weight: 500 !important;
     color: #ed1c24;
-    font-size: 28px;
+    font-size: 40px;
   }
   .p-content {
     font-size: 14px;
@@ -235,8 +234,7 @@
     padding-left: 0;
   }
   .gif-size {
-    max-width: 8%;
-    margin-right: 5px;
+    max-width: 5%;
   }
   .bg-image {
     background-position: center right !important;
