@@ -262,3 +262,11 @@ option {
     max-width: 8%;
   }
 }
+@media only screen and (max-width: 400px) {
+  .addressimg {
+    max-width: 25%;
+  }
+  .para1{
+    font-size: 24px;
+  }
+}

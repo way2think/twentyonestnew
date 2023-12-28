@@ -82,6 +82,8 @@
   font-size: 22px;
 }
 
+
+
 @media (max-width: 767px) {
   .p-content {
     font-size: 12px;
@@ -258,6 +260,16 @@
     background: url("../.././public/images/Services\ bg\ 3.png");
   }
 }
+
+@media only screen and (max-width: 400px){
+  .slider-content-container{
+    margin-top: 140px;
+  }
+  .title{
+    font-size: 30px;
+  }
+}
+
 
 @media (min-width: 1200px) {
   .p-content {

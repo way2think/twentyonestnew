@@ -214,6 +214,27 @@
   /* Add any other styles specific to laptops and larger screens */
 }
 
+@media only screen and (max-width: 400px) {
+  .gsquare1 {
+    width: 250px;
+    height: 250px;
+  }
+  .gsquare2 {
+    width: 250px;
+    height: 250px;
+  }
+  .gsquare {
+    width: 300px;
+    height: 250px;
+  }
+  .caro {
+    padding: 5px 15px;
+  }
+  .content{
+    font-size: 14px;
+  }
+}
+
 /* Extra-large screens (e.g. desktops) - You can adjust the min-width as needed */
 @media (min-width: 1200px) {
   .title1 {
