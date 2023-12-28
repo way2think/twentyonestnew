@@ -1,6 +1,9 @@
+import { useState } from "react";
 import classes from "./Navbar.module.css";
 
 const Navbar = ({ activeSlide, onLinkClick }) => {
+const [openMenu,setOpenMenu]=useState("collapse")
+
   const navLinks = [
     {
       name: "HOME",
@@ -24,6 +27,20 @@ const Navbar = ({ activeSlide, onLinkClick }) => {
       name: "CONTACT",
     },
   ];
+
+  const handleMenuClick=(i)=>{
+     onLinkClick(i)
+    // setOpenMenu(false)
+  }
+
+//   const navlinks = document.querySelectorAll('.nav-item')
+// const menuToggle = document.getElementById('navbarSupportedContent')
+// const bsCollapse = bootstrap.Collapse.getOrCreateInstance(menuToggle, {toggle: false})
+// navlinks.forEach((l) => {
+//     l.addEventListener('click', () => { bsCollapse.toggle() })
+// })
+
+
   return (
     <>
       <nav class="navbar navbar-expand-lg fixed-top">
@@ -42,6 +59,8 @@ const Navbar = ({ activeSlide, onLinkClick }) => {
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          
+         
         >
           <img
             src="./images/toggle.svg"
@@ -57,8 +76,9 @@ const Navbar = ({ activeSlide, onLinkClick }) => {
                 <li className="nav-item" key={i}>
                   <a
                     className={`nav-link${i === activeSlide ? " active" : ""}`}
-                    onClick={() => onLinkClick(i)}
+                    onClick={()=>handleMenuClick(i)}
                     href="#home"
+
                   >
                     {link.name}
                   </a>

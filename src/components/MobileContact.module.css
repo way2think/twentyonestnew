@@ -282,3 +282,9 @@ option {
     background: rgba(237, 28, 36, 1);
   } */
 }
+
+@media only screen and (max-width: 400px) {
+ /* .Contactsmobile{
+  margin-top:20%;
+ } */
+}

@@ -477,3 +477,9 @@ a:not([href]):not([tabindex]):hover {
     display: none;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .slide-outer-container{
+   top:48%
+  }
+ }
