@@ -20,6 +20,7 @@ function Main() {
 
   useEffect(() => {
     console.log("width: ", window.screen.width);
+    console.log("height: ", window.screen.height);
     swiperRef.current = new Swiper(".swiper-container", {
       direction: "vertical",
       speed: 800,

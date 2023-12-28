@@ -35,7 +35,7 @@ body {
 .swiper-container .slider .swiper-slide .slide-inner {
   position: absolute;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   left: 0;
   top: 0;
 }
@@ -393,6 +393,7 @@ a:not([href]):not([tabindex]):hover {
 
   .swiper-container .slider .swiper-slide {
     font-size: 16px; /* Adjust font size for mobile */
+    height: 100%;
   }
   .testi-container {
     width: 20rem;

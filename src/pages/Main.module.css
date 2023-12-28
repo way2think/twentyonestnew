@@ -176,10 +176,12 @@
 
   .twentyphone {
     display: block;
-    font-size: 14px;
+    font-size: 12px;
+    margin-bottom: 5px;
   }
   .mail1 {
-    font-size: 14px;
+    font-size: 12px;
+    margin-bottom: 5px;
   }
 }
 
