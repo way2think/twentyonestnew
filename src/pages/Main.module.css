@@ -149,7 +149,7 @@
 /* Default styles for all screen sizes */
 
 /* Media query for mobile devices */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   /* Your mobile-specific styles here */
 
   .slider1 {
