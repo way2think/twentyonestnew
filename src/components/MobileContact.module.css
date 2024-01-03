@@ -232,18 +232,18 @@ option {
   .Servicescontent1 {
     margin-top: 15%;
   }
-  .Servicescontent{
+  .Servicescontent {
     margin-top: 5%;
   }
 
   .contactbrand {
-    font-size: 28px;
+    font-size: 40px;
     font-family: futuramedium;
     color: #fff;
     text-align: left;
-    padding-left: 16px;
-    margin-top: 12%;
-}
+    padding-left: 20px;
+    margin-top: 15%;
+  }
 
   .sub {
     margin-bottom: 30px;
@@ -259,7 +259,7 @@ option {
   .inputBox {
     margin-bottom: 3%;
   }
-  .select_container{
+  .select_container {
     margin-bottom: 3%;
   }
 
@@ -283,11 +283,10 @@ option {
   } */
 }
 
-@media only screen and (max-width: 400px){
-  
+@media only screen and (max-width: 400px) {
 }
 @media only screen and (max-width: 400px) {
- /* .Contactsmobile{
+  /* .Contactsmobile{
   margin-top:20%;
  } */
 }

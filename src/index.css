@@ -342,6 +342,7 @@ a:not([href]):not([tabindex]):hover {
 
 .testi-person {
   font-size: 28px;
+  text-align: left;
 }
 
 /* .testi-comment {
@@ -479,7 +480,7 @@ a:not([href]):not([tabindex]):hover {
 }
 
 @media only screen and (max-width: 400px) {
-  .slide-outer-container{
-   top:48%
+  .slide-outer-container {
+    top: 48%;
   }
- }
+}

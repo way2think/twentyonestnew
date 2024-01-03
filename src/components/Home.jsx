@@ -37,34 +37,65 @@ const Home = () => {
 
   return (
     <div className={`${classes.overlaycontent} row container`}>
-      <div
-        className={`${classes.content} col-md-5`}
-        // style={{ top: topPosition }}
-      >
-        <motion.div
-          {...animateProp}
-          transition={{ duration: 1, delay: 1 * 0.1 }}
-          className={classes.absoluteText}
+      <div className={`${classes.content} row container`}>
+        <div
+          className={`${classes.contentTitle} col-md-5`}
+          // style={{ top: topPosition }}
         >
-          <p className={`${classes.firsttitle}`}>
-            Every brand has a <span className={classes.story}>story..</span>
-          </p>
-        </motion.div>
-        <motion.p
-          {...animateProp}
-          transition={{ duration: 1, delay: 2 * 0.1 }}
-          className={`${classes.secondtitle} ${classes.absoluteText}`}
+          <motion.div
+            {...animateProp}
+            transition={{ duration: 1, delay: 1 * 0.1 }}
+            className={classes.absoluteText}
+          >
+            <p className={`${classes.firsttitle}`}>
+              Every brand has a <span className={classes.story}>story..</span>
+            </p>
+          </motion.div>
+          <motion.p
+            {...animateProp}
+            transition={{ duration: 1, delay: 2 * 0.1 }}
+            className={`${classes.secondtitle} ${classes.absoluteText}`}
+          >
+            Let’s make yours
+          </motion.p>
+          <motion.p
+            {...animateProp}
+            transition={{ duration: 1, delay: 3 * 0.1 }}
+            className={`${classes.thirdtitle} ${classes.absoluteText}`}
+          >
+            {/* <span className={classes.red}>ROI</span> */}
+            unforgettable!
+          </motion.p>
+        </div>
+        <div
+          className={`${classes.contentMobile} col-md-5`}
+          // style={{ top: topPosition }}
         >
-          Let’s make yours
-        </motion.p>
-        <motion.p
-          {...animateProp}
-          transition={{ duration: 1, delay: 3 * 0.1 }}
-          className={`${classes.thirdtitle} ${classes.absoluteText}`}
-        >
-          {/* <span className={classes.red}>ROI</span> */}
-          unforgettable!
-        </motion.p>
+          <motion.div
+            {...animateProp}
+            transition={{ duration: 1, delay: 1 * 0.1 }}
+            className={classes.absoluteText}
+          >
+            <p className={`${classes.firsttitle}`}>
+              Every brand has a <span className={classes.story}>story..</span>
+            </p>
+          </motion.div>
+          <motion.p
+            {...animateProp}
+            transition={{ duration: 1, delay: 2 * 0.1 }}
+            className={`${classes.secondtitle} ${classes.absoluteText}`}
+          >
+            Let’s make yours
+          </motion.p>
+          <motion.p
+            {...animateProp}
+            transition={{ duration: 1, delay: 3 * 0.1 }}
+            className={`${classes.thirdtitle} ${classes.absoluteText}`}
+          >
+            {/* <span className={classes.red}>ROI</span> */}
+            unforgettable!
+          </motion.p>
+        </div>
       </div>
       <div className={`${classes.imagecontent} col-md-5`}>
         {/* Your image content */}
