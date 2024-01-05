@@ -2,6 +2,7 @@
 
 .logo {
   max-width: 100%;
+  padding-left: 10px;
 }
 
 .number {
@@ -9,6 +10,7 @@
   margin-left: 5px;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
+  padding-right: 20px;
 }
 .number:hover {
   color: #fff;
@@ -23,4 +25,22 @@
 
 .navbarcollapse {
   margin-left: -180px;
+}
+
+.navbarover {
+  padding: 10px 0;
+}
+
+/* #navbarSupportedContent{
+  background-color: #000000c2;
+} */
+
+@media (max-width: 400px) {
+  /* .navbarback {
+    background-color: #000000c2;
+  } */
+
+  .collapsenav {
+    background-color: #000000c2;
+  }
 }

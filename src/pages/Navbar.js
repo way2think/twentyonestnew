@@ -2,7 +2,7 @@ import { useState } from "react";
 import classes from "./Navbar.module.css";
 
 const Navbar = ({ activeSlide, onLinkClick }) => {
-const [openMenu,setOpenMenu]=useState("collapse")
+  const [openMenu, setOpenMenu] = useState("collapse");
 
   const navLinks = [
     {
@@ -28,22 +28,21 @@ const [openMenu,setOpenMenu]=useState("collapse")
     },
   ];
 
-  const handleMenuClick=(i)=>{
-     onLinkClick(i)
+  const handleMenuClick = (i) => {
+    onLinkClick(i);
     // setOpenMenu(false)
-  }
+  };
 
-//   const navlinks = document.querySelectorAll('.nav-item')
-// const menuToggle = document.getElementById('navbarSupportedContent')
-// const bsCollapse = bootstrap.Collapse.getOrCreateInstance(menuToggle, {toggle: false})
-// navlinks.forEach((l) => {
-//     l.addEventListener('click', () => { bsCollapse.toggle() })
-// })
-
+  //   const navlinks = document.querySelectorAll('.nav-item')
+  // const menuToggle = document.getElementById('navbarSupportedContent')
+  // const bsCollapse = bootstrap.Collapse.getOrCreateInstance(menuToggle, {toggle: false})
+  // navlinks.forEach((l) => {
+  //     l.addEventListener('click', () => { bsCollapse.toggle() })
+  // })
 
   return (
     <>
-      <nav class="navbar navbar-expand-lg fixed-top">
+      <nav class={`${classes.navbarover} navbar navbar-expand-lg fixed-top`}>
         <a class="navbar-brand" href="#">
           <img
             src="/images/21 logo white inverted.png"
@@ -59,8 +58,6 @@ const [openMenu,setOpenMenu]=useState("collapse")
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
-          
-         
         >
           <img
             src="./images/toggle.svg"
@@ -69,16 +66,15 @@ const [openMenu,setOpenMenu]=useState("collapse")
           />
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className={`${classes.collapsenav} collapse navbar-collapse`} id="navbarSupportedContent">
           <div className="m-auto">
-            <ul className="navbar-nav  mt-2 mt-lg-0">
+            <ul className={`${classes.navbarback} navbar-nav  mt-2 mt-lg-0`}>
               {navLinks.map((link, i) => (
                 <li className="nav-item" key={i}>
                   <a
                     className={`nav-link${i === activeSlide ? " active" : ""}`}
-                    onClick={()=>handleMenuClick(i)}
+                    onClick={() => handleMenuClick(i)}
                     href="#home"
-
                   >
                     {link.name}
                   </a>
