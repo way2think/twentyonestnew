@@ -22,6 +22,11 @@
   gap: 7px;
   font-size: 12px;
   color: #fff;
+  position: fixed;
+  margin: auto;
+  left: 0 !important;
+  right: 0;
+  bottom: 10% !important;
 }
 .slider-dots .active {
   color: #ed1c24;
@@ -262,7 +267,7 @@
 
 @media only screen and (max-width: 400px) {
   .slider-content-container {
-    margin-top: 140px;
+    margin-top: 120px;
   }
   .title {
     font-size: 30px;
