@@ -326,6 +326,7 @@ a:not([href]):not([tabindex]):hover {
   font-size: 16px;
   margin: 0;
   text-align: left;
+  text-wrap: nowrap;
 }
 
 .sflogo {
@@ -343,6 +344,7 @@ a:not([href]):not([tabindex]):hover {
 .testi-person {
   font-size: 28px;
   text-align: left;
+  text-wrap: nowrap !important;
 }
 
 /* .testi-comment {
@@ -448,13 +450,15 @@ a:not([href]):not([tabindex]):hover {
   }
   .testi-person {
     font-size: 14px;
+    text-wrap: nowrap !important;
   }
   .font-style-r {
     font-size: 14px;
-    text-wrap: nowrap;
+    text-wrap: nowrap !important;
   }
+
   .slide-outer-container {
-    width: 550px;
+    width: 600px;
   }
   .apostropheImg {
     width: 3rem;

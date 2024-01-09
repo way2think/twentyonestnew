@@ -143,7 +143,7 @@ const Services = () => {
   }, [curIndex]);
 
   let ui = null;
-  if (window.innerWidth <= 768) {
+  if (window.innerWidth <= 700) {
     ui = (
       <div>
         <img
@@ -196,7 +196,7 @@ const Services = () => {
   }
 
   window.addEventListener("resize", () => {
-    if (window.innerWidth <= 768) {
+    if (window.innerWidth <= 700) {
       ui = (
         <div>
           <img

@@ -237,7 +237,7 @@
     max-width: 150%;
     padding: 40px;
   }
-  .indicators{
+  .indicators {
     left: -15rem;
   }
 }
@@ -272,15 +272,23 @@
   /* Add any other styles specific to extra-large screens */
 }
 
-/* Tablet */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-}
-
-/* Laptop */
+/* Styles for standard laptops and desktops */
 @media only screen and (min-width: 1024px) and (max-width: 1365px) {
+  .gsquare {
+    max-width: 135%;
+    padding: 80px;
+  }
+  .gsquare1 {
+    max-width: 135%;
+    padding: 80px;
+  }
+  .gsquare2 {
+    max-width: 135%;
+    padding: 80px;
+  }
 }
 
-/* Larger screens */
+/* Styles for larger screens and desktops */
 @media only screen and (min-width: 1366px) {
   .title1 {
     font-size: 40px;
@@ -293,5 +301,9 @@
     height: 100%;
     margin: auto;
     padding: 0 100px;
+  }
+  .gsquare2 {
+    max-width: 135%;
+    padding: 80px;
   }
 }

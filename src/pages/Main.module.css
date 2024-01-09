@@ -201,3 +201,29 @@
     background-position: right !important;
   }
 }
+
+/* Styles for standard laptops and desktops */
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+  .slider1 {
+    background: url("../.././public/images/Home\ bg.png");
+
+    background-size: cover;
+    background-position: right !important;
+  }
+  .slider2 {
+    background: url("../.././public/images/About\ bg.png");
+
+    background-size: cover;
+    background-position: right !important;
+  }
+}
+
+/* Styles for larger screens and desktops */
+@media only screen and (min-width: 1366px) {
+  .slider1 {
+    background: url("../.././public/images/Home\ bg.png");
+
+    background-size: cover;
+    background-position: right !important;
+  }
+}
