@@ -42,6 +42,22 @@
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .outer{
+    width: 550px !important;
+  }
+  .arrow {
+    border-radius: 0 !important;
+    padding: 5px 10px !important;
+  }
+  .slidershow {
+    background: url("../.././public/images/Testimonial\ bg.png");
+    /* background-position: center right; */
+    background-size: 120% 100% !important;
+    background-position: right !important;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   /* .slidershow{
     bottom:10%;

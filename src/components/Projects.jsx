@@ -8,11 +8,13 @@ const Projects = () => {
         id="carouselExampleIndicators1"
         className="overallcarousel carousel slide"
         data-ride="carousel"
+        data-interval="false"
       >
         <ol className="indicators carousel-indicators">
           <li
             data-target="#carouselExampleIndicators1"
             data-slide-to="0"
+            
             className="active"
             id="dot"
           ></li>

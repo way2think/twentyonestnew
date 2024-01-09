@@ -435,20 +435,6 @@ a:not([href]):not([tabindex]):hover {
   /* Add any other mobile-specific styles here */
 }
 
-/* Tablets (768px to 991px) */
-@media (min-width: 768px) and (max-width: 991px) {
-  /* Adjust styles for tablets here */
-
-  .swiper-container {
-    height: 100vh; /* Adjust height for tablets */
-  }
-  .mobileview {
-    display: none;
-  }
-
-  /* Add any other tablet-specific styles here */
-}
-
 /* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .swiper-container {
@@ -456,6 +442,33 @@ a:not([href]):not([tabindex]):hover {
   }
   .mobileview {
     display: none;
+  }
+  .testi-comment {
+    font-size: 14px !important;
+  }
+  .testi-person {
+    font-size: 14px;
+  }
+  .font-style-r {
+    font-size: 14px;
+    text-wrap: nowrap;
+  }
+  .slide-outer-container {
+    width: 550px;
+  }
+  .apostropheImg {
+    width: 3rem;
+  }
+  .arrow-container {
+    position: fixed;
+    top: 75%;
+    z-index: 100 !important;
+  }
+  .content-over {
+    padding-top: 100px;
+  }
+  .sflogo {
+    max-width: 115%;
   }
 }
 

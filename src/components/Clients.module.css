@@ -62,6 +62,20 @@
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .overallclients {
+    background: url("../.././public/images/Clients\ bg.png");
+    background-size: 120% 100% !important;
+    background-position: right !important;
+    /* background: url("../.././public/images/Clients\ Mobile.svg"); */
+
+    /* display: block; */
+  }
+  .clientlogo {
+    max-width: 80% !important;
+  }
+}
+
 /* Tablet */
 /* @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .overallclients {

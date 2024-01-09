@@ -77,7 +77,7 @@ const Testmonial = () => {
   return (
     <>
       <div className={`${classes.slidershow} slideshow-container`}>
-        <div className="slide-outer-container">
+        <div className={`${classes.outer} slide-outer-container`}>
           {data.map((item, i) => (
             <div className="mySlides" key={i}>
               <div className="testi-container text-white fixed-height row">

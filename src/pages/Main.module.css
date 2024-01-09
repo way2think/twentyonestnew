@@ -149,7 +149,7 @@
 /* Default styles for all screen sizes */
 
 /* Media query for mobile devices */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   /* Your mobile-specific styles here */
 
   .slider1 {
@@ -186,6 +186,18 @@
 }
 
 /* Media query for laptops and larger screens */
-@media (min-width: 768px) {
-  /* Your laptop and larger screen-specific styles here */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .slider1 {
+    background: url("../.././public/images/Home\ bg.png");
+
+    background-size: 120% 100% !important;
+    background-position: right !important;
+  }
+  .slider2 {
+    background: url("../.././public/images/About\ bg.png");
+
+    background-size: 120% 100% !important;
+    background-position: right !important;
+  }
 }

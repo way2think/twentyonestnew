@@ -261,6 +261,7 @@ option {
   }
   .add1 {
     font-size: 16px;
+    text-align: left;
   }
   .addressimg {
     max-width: 30%;
@@ -278,5 +279,6 @@ option {
   }
   .para1 {
     font-size: 20px;
+    text-decoration: none !important;
   }
 }

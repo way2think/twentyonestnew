@@ -201,7 +201,7 @@ function Main() {
             rel="noreferrer"
           >
             {" "}
-            <img src="/images/Vector.svg" alt="" className={classes.insta} />
+            <img src="/images/X.svg" alt="" className={classes.insta} />
           </a>
           <a
             target="_blank"

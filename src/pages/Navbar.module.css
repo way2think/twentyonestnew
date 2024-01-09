@@ -35,6 +35,18 @@
   background-color: #000000c2;
 } */
 
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .collapsenav {
+    background-color: #000000c2;
+  }
+}
+
+@media (max-width: 678px) {
+  .number {
+    display: none !important;
+  }
+}
+
 @media (max-width: 400px) {
   /* .navbarback {
     background-color: #000000c2;
@@ -42,5 +54,8 @@
 
   .collapsenav {
     background-color: #000000c2;
+  }
+  .number {
+    display: none !important;
   }
 }

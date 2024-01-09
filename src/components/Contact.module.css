@@ -91,7 +91,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
- 
 }
 
 .box {
@@ -230,12 +229,55 @@ option {
     flex-direction: column-reverse;
     padding: 0;
   }
-  .Servicescontent1{
+  .Servicescontent1 {
     position: relative;
-    top:400px;
+    top: 400px;
   }
 }
 
-@media only screen and (max-width: 400px){
-  
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .Contacts {
+    background: url("../.././public/images/Contact\ bg.png");
+    background-size: 120% 100% !important;
+    background-position: right !important;
+  }
+  .Contactcontainer {
+    padding: 0 10px;
+  }
+  .add1 {
+    font-size: 14px;
+    text-align: left;
+  }
+  .contacttitle {
+    font-size: 20px;
+  }
+  .para1 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .addresstitle {
+    font-size: 18px;
+  }
+  .addressimg {
+    max-width: 26%;
+  }
+  .contactbrand {
+    font-size: 24px;
+    text-align: left;
+  }
+  .box {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    width: 400px;
+    padding: 0 85px;
+    /* background: rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5); */
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
 }

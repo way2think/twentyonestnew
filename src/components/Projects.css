@@ -197,21 +197,49 @@
     height: 8px;
   }
   .indicators {
-    bottom: 60px;
-    left: -20px;
-    margin-right: 25%;
-    margin-left: 25%;
-    margin-top: 200px;
+    gap: 0px;
+    font-size: 8px;
+    color: #fff;
+    position: fixed;
+    margin: auto;
+    left: 0 !important;
+    right: 0;
+    bottom: 15% !important;
   }
 }
 
-/* Laptops and larger screens (768px and above) */
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .title1 {
-    font-size: 40px; /* Default font size for laptops and larger screens */
+    font-size: 30px; /* Default font size for laptops and larger screens */
+    text-align: left;
   }
+  .caro {
+    padding: 0;
+  }
+  .content {
+    font-size: 14px;
+    text-align: left;
+  }
+  .button {
+    padding: 5px 10px;
 
-  /* Add any other styles specific to laptops and larger screens */
+    font-size: 14px;
+  }
+  .gsquare {
+    max-width: 150%;
+    padding: 40px;
+  }
+  .gsquare2 {
+    max-width: 150%;
+    padding: 40px;
+  }
+  .gsquare1 {
+    max-width: 150%;
+    padding: 40px;
+  }
+  .indicators{
+    left: -15rem;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -230,7 +258,7 @@
   .caro {
     padding: 5px 15px;
   }
-  .content{
+  .content {
     font-size: 14px;
   }
 }

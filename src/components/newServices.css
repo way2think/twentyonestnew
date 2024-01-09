@@ -209,7 +209,7 @@
     margin: auto;
     left: 0 !important;
     right: 0;
-    bottom: 10% !important;
+    bottom: 15% !important;
   }
   .slider-dots .active {
     color: #ed1c24;
@@ -238,6 +238,7 @@
   .slider-content {
     margin-top: 0px;
     padding-left: 0;
+    margin-bottom: 5rem;
   }
   .gif-size {
     max-width: 5%;
@@ -265,12 +266,29 @@
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .title{
+    font-size: 30px;
+  }
+  .p-content{
+    font-size: 14px;
+  }
+  .liservices{
+    font-size: 14px;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   .slider-content-container {
     margin-top: 120px;
   }
   .title {
     font-size: 30px;
+  }
+  .slider-content {
+    margin-top: 0px;
+    padding-left: 0;
+    margin-bottom: 5rem;
   }
 }
 

@@ -75,6 +75,25 @@
 
 /* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  .abouttitle {
+    font-family: Futura;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 20px;
+    position: absolute;
+    bottom: 128px;
+    left: 1px;
+    width: 100rem;
+    height: 100%;
+  }
+  .sim {
+    font-size: 18px;
+    line-height: 30px;
+  }
 }
 
 /* Laptop */
