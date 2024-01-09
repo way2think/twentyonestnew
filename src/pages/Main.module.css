@@ -185,45 +185,45 @@
   }
 }
 
-/* Media query for laptops and larger screens */
+/* Media query for tab */
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .slider1 {
     background: url("../.././public/images/Home\ bg.png");
-
     background-size: 120% 100% !important;
     background-position: right !important;
   }
   .slider2 {
     background: url("../.././public/images/About\ bg.png");
-
     background-size: 120% 100% !important;
     background-position: right !important;
   }
 }
 
 /* Styles for standard laptops and desktops */
-@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+@media only screen and (min-width: 1024px) {
   .slider1 {
     background: url("../.././public/images/Home\ bg.png");
-
-    background-size: cover;
+    background-size: 100% !important;
     background-position: right !important;
   }
   .slider2 {
     background: url("../.././public/images/About\ bg.png");
-
-    background-size: cover;
+    background-size: 100% !important;
     background-position: right !important;
   }
 }
 
 /* Styles for larger screens and desktops */
 @media only screen and (min-width: 1366px) {
-  .slider1 {
+  /* .slider1 {
     background: url("../.././public/images/Home\ bg.png");
-
-    background-size: cover;
+    background-size: 100% !important;
     background-position: right !important;
   }
+  .slider2 {
+    background: url("../.././public/images/About\ bg.png");
+    background-size: 100% !important;
+    background-position: right !important;
+  } */
 }

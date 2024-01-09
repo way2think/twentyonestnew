@@ -158,3 +158,38 @@
     padding: 0;
   }
 }
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+  .content {
+    position: relative;
+    top: 0%;
+    left: -12%;
+    /* margin-bottom: 2%; */
+  }
+  .firsttitle {
+    font-size: 30px;
+  }
+  .secondtitle {
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 70px;
+    margin-bottom: 12px;
+  }
+  .thirdtitle {
+    font-size: 54px;
+    font-weight: 600;
+    margin-bottom: 0;
+    line-height: 70px;
+  }
+  .contentTitle {
+    top: -75px;
+    left: 298px;
+  }
+  
+}
+
+
+
+@media only screen and (min-width: 1366px) {
+  
+}
