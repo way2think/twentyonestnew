@@ -74,10 +74,10 @@
   left: 160px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 856px) {
   .content {
     position: relative;
-    top: 30%;
+    top: 30% !important;
     /* margin-bottom: 2%; */
   }
 

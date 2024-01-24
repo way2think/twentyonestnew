@@ -168,7 +168,33 @@ const Services = () => {
         />
       </div>
     );
-  } else {
+  } else if(window.innerWidth <= 856){
+    ui = (
+      <div>
+        <img
+          className={`bg-pos ${curIndex === 0 ? "active-bg" : ""}`}
+          src="/images/services mini.png"
+          alt="bg-1"
+        />
+        <img
+          className={`bg-pos ${curIndex === 1 ? "active-bg" : ""}`}
+          src="/images/services mini2.png"
+          alt="bg-2"
+        />
+        <img
+          className={`bg-pos ${curIndex === 2 ? "active-bg" : ""}`}
+          src="/images/services mini3.png"
+          alt="bg-3"
+        />
+        <img
+          className={`bg-pos ${curIndex === 3 ? "active-bg" : ""}`}
+          src="/images/services mini3.png"
+          alt="bg-4"
+        />
+      </div>
+    );
+  }
+  else {
     ui = (
       <div>
         <img

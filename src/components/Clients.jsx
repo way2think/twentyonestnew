@@ -7,7 +7,7 @@ const Clients = () => {
     {
       content_prim: (
         <div>
-          <div className={`${classes.Servicescontent} col-md-2 col-lg-2`}>
+          <div className={`${classes.Servicescontent}  col-lg-2`}>
             <img
               src="/images/client 1.png"
               alt=""
@@ -20,7 +20,7 @@ const Clients = () => {
     {
       content_prim: (
         <div>
-          <div className={`${classes.Servicescontent} col-md-3 col-lg-2`}>
+          <div className={`${classes.Servicescontent} col-lg-2`}>
             <img
               src="/images/client 2.png"
               alt=""
@@ -33,7 +33,7 @@ const Clients = () => {
     {
       content_prim: (
         <div>
-          <div className={`${classes.Servicescontent} col-md-2 col-lg-2`}>
+          <div className={`${classes.Servicescontent}  col-lg-2`}>
             <img
               src="/images/client 3.png"
               alt=""
@@ -46,7 +46,7 @@ const Clients = () => {
     {
       content_prim: (
         <div>
-          <div className={`${classes.Servicescontent} col-md-2 col-lg-2`}>
+          <div className={`${classes.Servicescontent} col-lg-2`}>
             <img
               src="/images/client 4.png"
               alt=""

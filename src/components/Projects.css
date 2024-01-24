@@ -151,7 +151,7 @@
   font-size: 16px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 856px) {
   .caro {
     padding: 15px 30px;
   }
@@ -167,7 +167,7 @@
   }
   .gsquare {
     /* max-width: 100%; */
-    padding: 0px;
+    padding: 0px !important;
     /* width: 100%; */
     width: 300px;
     height: 250px;
@@ -205,6 +205,15 @@
     left: 0 !important;
     right: 0;
     bottom: 15% !important;
+  }
+}
+/* 3:4 ratio aspect */
+@media only screen and (min-width: 768px) and (max-width: 856px) {
+  .caro {
+    margin-top: -215px;
+  }
+  .content {
+    width: 120%;
   }
 }
 

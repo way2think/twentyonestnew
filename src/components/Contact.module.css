@@ -207,7 +207,7 @@ option {
   color: #ed1c24;
   background: transparent;
 }
-@media (max-width: 767px) {
+@media (max-width: 856px) {
   /* Add the following style to ensure the body takes 100% height */
   /* body {
     margin: 0;
@@ -223,7 +223,7 @@ option {
     background: url("../.././public/images/Contact\ Mobile.svg");
     /* height: 1000px; */
     overflow-y: scroll;
-    display: none;
+    /* display: none ; */
   }
   .Contactcontainer {
     flex-direction: column-reverse;
@@ -235,7 +235,15 @@ option {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (max-width: 856px) and (min-width: 480px) {
+  .Contacts {
+    background-size: cover !important;
+    background: url("../.././public/images/Contact\ mini.png");
+   
+  }
+}
+
+@media only screen and (min-width: 856px) and (max-width: 1023px) {
   .Contacts {
     background: url("../.././public/images/Contact\ bg.png");
     background-size: 120% 100% !important;

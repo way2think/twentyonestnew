@@ -23,7 +23,7 @@
   border: 1px solid #ed1c24;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 856px) {
   .arrow {
     padding: 5px 10px !important;
   }
@@ -35,15 +35,21 @@
     width: 100%;
     height: 100%;
     position: relative;
-    bottom:50px;
+    bottom: 50px;
   }
-  .Servicescontent1{
+  .Servicescontent1 {
     margin-top: 500px;
   }
 }
 
+/* 3:4 ratio aspect */
+@media only screen and (max-width: 856px) and (min-width: 480px) {
+  .slidershow {
+    background: url("../.././public/images/Testimonials\ mini.png");
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .outer{
+  .outer {
     width: 550px !important;
   }
   .arrow {
@@ -62,5 +68,4 @@
   /* .slidershow{
     bottom:10%;
   } */
- 
 }

@@ -16,6 +16,19 @@
   /* background-size: 120%; */
 }
 
+@media only screen and (max-width: 856px) and (min-width: 480px){
+  .slider1 {
+    background: url("../.././public/images/Home\ mini.png") !important;
+    background-size: cover !important;
+    background-position: right !important;
+  }
+  .slider2 {
+    background: url("../.././public/images/About\ mini.png") !important;
+    background-size: 120% 100% !important;
+    background-position: right !important;
+  }
+
+}
 .slider2 {
   background: url("../.././public/images/About\ bg.png");
   background-position: center right;
@@ -204,12 +217,12 @@
 @media only screen and (min-width: 1024px) {
   .slider1 {
     background: url("../.././public/images/Home\ bg.png");
-    background-size: 100% !important;
+    background-size: cover !important;
     background-position: right !important;
   }
   .slider2 {
     background: url("../.././public/images/About\ bg.png");
-    background-size: 100% !important;
+    background-size: cover !important;
     background-position: right !important;
   }
 }
