@@ -16,19 +16,6 @@
   /* background-size: 120%; */
 }
 
-@media only screen and (max-width: 856px) and (min-width: 480px){
-  .slider1 {
-    background: url("../.././public/images/Home\ mini.png") !important;
-    background-size: cover !important;
-    background-position: right !important;
-  }
-  .slider2 {
-    background: url("../.././public/images/About\ mini.png") !important;
-    background-size: 120% 100% !important;
-    background-position: right !important;
-  }
-
-}
 .slider2 {
   background: url("../.././public/images/About\ bg.png");
   background-position: center right;
@@ -162,7 +149,7 @@
 /* Default styles for all screen sizes */
 
 /* Media query for mobile devices */
-@media (max-width: 767px) {
+@media (max-width: 599px) {
   /* Your mobile-specific styles here */
 
   .slider1 {
@@ -199,32 +186,20 @@
 }
 
 /* Media query for tab */
-
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 600px) and (max-width: 856px)  {
   .slider1 {
-    background: url("../.././public/images/Home\ bg.png");
-    background-size: 120% 100% !important;
-    background-position: right !important;
+    background: url("../.././public/images/Home\ mini.png");
   }
   .slider2 {
-    background: url("../.././public/images/About\ bg.png");
-    background-size: 120% 100% !important;
-    background-position: right !important;
+    background: url("../.././public/images/About\ mini.png");
   }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
 }
 
 /* Styles for standard laptops and desktops */
 @media only screen and (min-width: 1024px) {
-  .slider1 {
-    background: url("../.././public/images/Home\ bg.png");
-    background-size: cover !important;
-    background-position: right !important;
-  }
-  .slider2 {
-    background: url("../.././public/images/About\ bg.png");
-    background-size: cover !important;
-    background-position: right !important;
-  }
 }
 
 /* Styles for larger screens and desktops */
